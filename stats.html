@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFJ Prayer Cells — Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app stats-app">
+    <aside class="sidebar">
+      <div class="brand">
+        <h1>SFJ <span>Prayer Cells</span></h1>
+        <p>2026-2027 · Chennai</p>
+      </div>
+      <ul id="navList" class="nav">
+        <li class="nav-item active" data-tab="dashboard"><span class="nav-label">Dashboard</span></li>
+        <li class="nav-item" data-tab="details"><span class="nav-label">Details</span></li>
+      </ul>
+      <div class="sidebar-foot">
+        <div id="userTag" class="user-tag"></div>
+        <button id="btnManage" class="btn btn-ghost admin-edit-only" title="Open the data manager">👥 Manage</button>
+        <button id="btnLogout" class="btn btn-ghost" title="Sign out">⏻ Logout</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="toolbar">
+        <div>
+          <h2 id="pageTitle">Dashboard</h2>
+          <p class="stats-tagline">Students for Jesus — Chennai prayer cells 2026-2027 · Pray for Mission 100 &amp; Reaching Chennai students!</p>
+        </div>
+        <div class="toolbar-right">
+          <button id="btnPrint" class="btn btn-primary">🖨 Print</button>
+        </div>
+      </header>
+
+      <div class="stats-wrap">
+        <section id="panel-dashboard" class="tab-panel">
+          <section class="kpis">
+            <div class="kpi grad-blue"><div class="kpi-icon">🏠</div><span class="kpi-num" id="kpiCells">—</span><span class="kpi-label">Prayer Cells</span></div>
+            <div class="kpi grad-green"><div class="kpi-icon">✅</div><span class="kpi-num" id="kpiActive">—</span><span class="kpi-label">Active</span></div>
+            <div class="kpi grad-amber"><div class="kpi-icon">📋</div><span class="kpi-num" id="kpiPlan">—</span><span class="kpi-label">Plan</span></div>
+            <div class="kpi grad-orange"><div class="kpi-icon">⏳</div><span class="kpi-num" id="kpiYet">—</span><span class="kpi-label">Yet to Start</span></div>
+            <div class="kpi grad-indigo"><div class="kpi-icon">👥</div><span class="kpi-num" id="kpiMembers">—</span><span class="kpi-label">Members</span></div>
+            <div class="kpi grad-teal"><div class="kpi-icon">🧭</div><span class="kpi-num" id="kpiShepherds">—</span><span class="kpi-label">Shepherds</span></div>
+            <div class="kpi grad-purple"><div class="kpi-icon">📣</div><span class="kpi-num" id="kpiLeaders">—</span><span class="kpi-label">Leaders</span></div>
+            <div class="kpi grad-pink"><div class="kpi-icon">🙏</div><span class="kpi-num" id="kpiFollow">—</span><span class="kpi-label">Follow-up</span></div>
+            <div class="kpi grad-red"><div class="kpi-icon">📖</div><span class="kpi-num" id="kpiPoints">—</span><span class="kpi-label">Prayer Points</span></div>
+          </section>
+
+          <section class="charts-grid">
+            <div class="chart-card wide">
+              <h4>Members per Cell</h4>
+              <div class="canvas-wrap"><canvas id="chartMembers"></canvas></div>
+            </div>
+            <div class="chart-card">
+              <h4>Cells by Day of Week</h4>
+              <div class="canvas-wrap"><canvas id="chartDay"></canvas></div>
+            </div>
+            <div class="chart-card">
+              <h4>People Overview</h4>
+              <div class="canvas-wrap"><canvas id="chartPeople"></canvas></div>
+            </div>
+          </section>
+        </section>
+
+        <section id="panel-details" class="tab-panel" style="display:none">
+          <div class="details-bar">
+            <button id="btnDownloadPdf" class="btn btn-primary" title="Download as PDF">⬇ Download PDF</button>
+          </div>
+          <main id="statsContent" class="stats-content">
+            <div class="empty">Loading…</div>
+          </main>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/chart.umd.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/jspdf.umd.min.js"></script>
+  <script src="js/pdf.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

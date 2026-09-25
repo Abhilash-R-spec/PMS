@@ -1,0 +1,21 @@
+[
+  { "leaderId": "L01", "name": "Kiruba", "cellId": null },
+  { "leaderId": "L02", "name": "James", "cellId": "BCH001" },
+  { "leaderId": "L03", "name": "John", "cellId": "BCH002" },
+  { "leaderId": "L04", "name": "Britto", "cellId": null },
+  { "leaderId": "L05", "name": "Annamalai", "cellId": null },
+  { "leaderId": "L06", "name": "Agastin", "cellId": null },
+  { "leaderId": "L07", "name": "Ebi", "cellId": "BCH007" },
+  { "leaderId": "L08", "name": "Boby", "cellId": null },
+  { "leaderId": "L09", "name": "Prabha", "cellId": "BCH009" },
+  { "leaderId": "L10", "name": "Vimalesh", "cellId": null },
+  { "leaderId": "L11", "name": "Vasanth", "cellId": null },
+  { "leaderId": "L12", "name": "Wislin Samuel", "cellId": null },
+  { "leaderId": "L13", "name": "Kakum Perumal", "cellId": "STU002" },
+  { "leaderId": "L14", "name": "Shane", "cellId": "STU001" },
+  { "leaderId": "L15", "name": "Kabil", "cellId": "BCH003" },
+  { "leaderId": "L16", "name": "Samuvel", "cellId": "BCH010" },
+  { "leaderId": "L17", "name": "Ezra", "cellId": "INS005" },
+  { "leaderId": "L18", "name": "Blesso Stanly", "cellId": "INS006" },
+  { "leaderId": "L19", "name": "Samuel", "cellId": "INS007" }
+]

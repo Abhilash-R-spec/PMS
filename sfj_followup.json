@@ -1,0 +1,18 @@
+[
+  { "fuId": "FU01", "name": "Roshan", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU02", "name": "John Wesley", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU03", "name": "Sharan", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU04", "name": "Muthamil", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU05", "name": "Prasath", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU06", "name": "Sai", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU07", "name": "Churchil", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU08", "name": "Madhavan", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU09", "name": "Sam", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU10", "name": "Santhosh", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU11", "name": "Jegan", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU12", "name": "Nethran", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU13", "name": "Kiran", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU14", "name": "Yugan", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU15", "name": "Siva", "cellId": "BCH009", "status": "praying" },
+  { "fuId": "FU16", "name": "Muthu Saravanan", "cellId": "BCH009", "status": "praying" }
+]
